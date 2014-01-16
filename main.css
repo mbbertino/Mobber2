@@ -10,7 +10,7 @@ body * {
 
 .header {
 	margin: 0 auto;
-	background-image: url("images/headbg.png");
+	background-image: url("/images/headbg.png");
 	background-repeat: repeat-x;
 	background-size: 150px 60px;
 	height: 60px;
@@ -75,7 +75,7 @@ body * {
 	width: 12px;
 	height: 10px;
 	margin-top: 23px;
-	background-image: url("images/triangle.png");
+	background-image: url("/images/triangle.png");
 	background-size: 14px 12px;
 }
 
@@ -701,7 +701,7 @@ tr * {
 .emailtri {
 	position: absolute;
 	right: 0px;
-	background-image: url(images/check.png);
+	background-image: url(/images/check.png);
 }
 
 
