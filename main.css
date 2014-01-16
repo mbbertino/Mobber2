@@ -10,7 +10,7 @@ body * {
 
 .header {
 	margin: 0 auto;
-	background-image: url("/images/headbg.png");
+	background-image: url(images/headbg.png);
 	background-repeat: repeat-x;
 	background-size: 150px 60px;
 	height: 60px;
@@ -75,7 +75,7 @@ body * {
 	width: 12px;
 	height: 10px;
 	margin-top: 23px;
-	background-image: url("/images/triangle.png");
+	background-image: url(images/triangle.png);
 	background-size: 14px 12px;
 }
 
@@ -690,18 +690,19 @@ tr * {
 }
 
 .email-in {
-	position: relative;
-	height: 44px; 
-	width: 220px;
+	background: white;
 	border-radius: 5px;
-	color: rgb(105,105,105);
+	margin-right: 18px;
 }
 
-
-.emailtri {
-	position: absolute;
-	right: 0px;
-	background-image: url(/images/check.png);
+input.email-input {
+	background: white;
+	height: 44px; 
+	width: 210px;	
+	border-radius: 5px;
+	padding-left: 10px;
+	color: rgb(105,105,105);
+	background: url(images/check.png) no-repeat center right;
 }
 
 
