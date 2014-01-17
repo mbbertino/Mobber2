@@ -121,6 +121,26 @@ body * {
 	font-size: 25px
 }
 
+.rightmaintimestamp {
+	margin-top: 17px;
+	margin-right: 20px;
+	color: #fff;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+}
+
+.timest {
+	display: inline-block;	
+}
+
+.ribbonborder {
+	position: absolute;
+	height: 13px;
+	z-index: 5;
+	width: 135px;
+	border-bottom: 1px solid rgb(187,134,18) ;
+}
 
 /*RIBBON*/
 /* ribbon style */
@@ -131,7 +151,6 @@ body * {
 	color: #fff;
 	text-transform: uppercase;
 	text-align: center;
-	border-bottom: 7px solid #ccc;
 	border-top: 0px solid #ccc;
 	-moz-border-bottom-colors: rgba(0, 0, 0, 0.02) rgba(0, 0, 0, 0.04) rgba(0, 0, 0, 0.06) rgba(0, 0, 0, 0.08) rgba(0, 0, 0, 0.10) rgba(0, 0, 0, 0.12) rgba(0, 0, 0, 0.14) rgba(0, 0, 0, 0.16) rgba(0, 0, 0, 0.18) rgba(0, 0, 0, 0.20);
 	-webkit-border-bottom-colors: rgba(0, 0, 0, 0.02) rgba(0, 0, 0, 0.04) rgba(0, 0, 0, 0.06) rgba(0, 0, 0, 0.08) rgba(0, 0, 0, 0.10) rgba(0, 0, 0, 0.12) rgba(0, 0, 0, 0.14) rgba(0, 0, 0, 0.16) rgba(0, 0, 0, 0.18) rgba(0, 0, 0, 0.20);
@@ -145,6 +164,7 @@ body * {
 		position: relative;
 		left:-8px;
 		z-index: 2;
+		text-shadow: 1px 1px 3px rgb(180,127,55);
 }
 
   .ribbon-front,
@@ -188,6 +208,7 @@ body * {
 	border-width: 0px 8px 0 0;
 }
   .ribbon-edge-bottomleft {
+  	margin-top: -1px;
 	border-width: 0 8px 7px 0;
 }
 
@@ -242,6 +263,12 @@ body * {
 	font-style: italic;
 }
 
+.arrow {
+	bottom: 27px;
+	left: 5px;
+	position: absolute;
+	z-index: 10;
+}
 .photo-disclaimer {
 	color: rgb(97,97,97);
 	font-size: 11px;
@@ -267,6 +294,7 @@ body * {
 	text-align: center;
 	color: #fff;
 	font-size: 70px;
+	text-shadow: 2px 2px 2px rgb(186,183,181);
 
 }
 
